@@ -4,9 +4,9 @@ def binary_search(L,k,f,l):
         if L[m]==k:
             return m
         elif L[m]<k:
-            l=m-1
-        else:
             f=m+1
+        else:
+            l=m-1
         return binary_search(L,k,f,l)
     else:
         return -1
