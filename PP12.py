@@ -4,7 +4,7 @@ def merge_sort(L,l,r):
         merge_sort(L,l,m)
         merge_sort(L,m+1,r)
         merge(L,l,m,r)
-        return L
+    return L
         
 def merge(L,l,m,r):
     M=[]
