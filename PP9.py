@@ -4,12 +4,10 @@ def binary_search(L,k,f,l):
         if L[m]==k:
             return m
         elif L[m]<k:
-            f=m+1
+            return binary_search(L,k,m+1,l)
         else:
-            l=m-1
-        return binary_search(L,k,f,l)
-    else:
-        return -1
+            return binary_search(L,k,f,m-1)
+    return -1
 
 L=eval(input("Enter a list:"))
 key=int(input("Enter item to be searched:"))
