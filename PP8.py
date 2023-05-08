@@ -10,7 +10,7 @@ key=eval(input("Enter item to be searched:"))
 
 check=linear_search(L,key)
 if check==-1:
-    print(f"Key {key} is not found in the list.");
+    print(f"Key {key} is not found in the list.")
 else:
     print(f"Key {key} is found on index {check} in the list.")
 
