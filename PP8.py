@@ -12,7 +12,7 @@ check=linear_search(L,key)
 if check==-1:
     print(f"Key {key} not found in the list.") #
 else:
-    print(f"Key {key} is found on index {check} in the list.")
+    print(f"Key {key} is found on index {check} in the list.") #
 
 '''
 Enter a list:[1,2,34,5,6,2,8]
