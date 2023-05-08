@@ -19,7 +19,7 @@ else:
     print(f"Key {key} is found on index {check} in the list.")
 
 '''
-Enter a list:[1,2,34,5,6,2,8]
+Enter a list:[1,2,3,4,5,6,7,8]
 Enter item to be searched:8
 Key 8 is found on index 6 in the list.
 '''
